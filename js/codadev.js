@@ -94,19 +94,19 @@ jQuery(document).ready(function($) {
 source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-in-javascript
 */
 
-  var yt_int, yt_players={}, initYT = function() {
-    $(".ytplayer").each(function() {
-      yt_players[this.id] = new YT.Player(this.id);
-    });
-  };
-  $.getScript("//www.youtube.com/player_api", function() {
-      yt_int = setInterval(function(){
-          if(typeof YT === "object"){
-              initYT();
-              clearInterval(yt_int);
-          }
-      },750);
-  });
+  // var yt_int, yt_players={}, initYT = function() {
+  //   $(".ytplayer").each(function() {
+  //     yt_players[this.id] = new YT.Player(this.id);
+  //   });
+  // };
+  // $.getScript("//www.youtube.com/player_api", function() {
+  //     yt_int = setInterval(function(){
+  //         if(typeof YT === "object"){
+  //             initYT();
+  //             clearInterval(yt_int);
+  //         }
+  //     },750);
+  // });
 
   // $('section').hover(
   //   function(){
