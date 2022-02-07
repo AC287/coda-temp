@@ -1713,8 +1713,9 @@ section.index-is-container {
 }
 .contact-phaddress {
   font-family: 'Questrial', sans-serif;
-  font-size: 12pt;
+  font-size: 16pt;
   color: #073DA5;
+  line-height: 25pt;
 }
 .contact-phaddress-ph {
   display: -webkit-box;
@@ -1726,14 +1727,16 @@ section.index-is-container {
   /* align-items: center; */
   justify-content: center;
 }
-.contact-phaddress-ph span {
-  padding: 0 10px 0 10px;
+.contact-phaddress-ph a {
+  font-weight: bold;
+  padding: 0 15px 0 15px;
+  text-decoration: none;
 }
 .contact-phaddress-address p {
   margin: 0;
 }
 .contact-phaddress-address p strong {
-  -webkit-text-stroke: 0.5px;
+  /* -webkit-text-stroke: 0.5px; */
 }
 
 @media screen and (max-width: 750px) {
