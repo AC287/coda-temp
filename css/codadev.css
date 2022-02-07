@@ -2088,3 +2088,7 @@ section.index-is-container {
   text-decoration: none;
   cursor: pointer;
 }
+
+.error-container {
+  height: 70vh;
+}
